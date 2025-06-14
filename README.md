@@ -33,13 +33,13 @@ SecureFileSign là giải pháp toàn diện cho việc truyền tệp tin an to
 ## 🎨 Giao Diện Của Trang Web
 
 ## ➡️ Trang chính
-![image](https://github.com/user-attachments/assets/59333a86-4ad7-4539-850a-a74f6080c37d)
+![image](https://github.com/user-attachments/assets/95587d5f-a88e-4a2b-b706-6c6264ab17a1)
 
 ## 👤 Gửi File
-![image](https://github.com/user-attachments/assets/c4373fd6-421f-4740-ad14-1795b9421b7f)
+![image](https://github.com/user-attachments/assets/f3fc91a8-0a8b-42d1-bff9-1b5bb7709780)
 
 ## ➡️ Nhận File
-![image](https://github.com/user-attachments/assets/fcd64b65-5a74-4405-a51e-e25ba5eaadbd)
+![image](https://github.com/user-attachments/assets/1b752ef6-6047-4cf3-9d2c-53c4c42f45cb)
 
 ## 💡 Tính Năng Chính 
 1. Truyền File An Toàn
