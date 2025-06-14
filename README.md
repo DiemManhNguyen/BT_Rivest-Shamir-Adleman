@@ -61,7 +61,7 @@ SecureFileSign là giải pháp toàn diện cho việc truyền tệp tin an to
 -Mã hóa kênh truyền
 
 ## 📁 Cấu Trúc Thư Mục Của Dự Án
-![image](https://github.com/user-attachments/assets/506910e5-411e-4d5a-983d-12217207b3a1)
+![image](https://github.com/user-attachments/assets/691bf037-676c-477f-8b77-fe19e6e6156d)
 
 ## 🧾 Hướng Dẫn Sử Dụng
 ✅ 1. Gửi File Kí Số
@@ -89,15 +89,16 @@ Bước 3: Hệ thống kiểm tra và thông báo:
 
 ## ✅Cách chạy ứng dụng:
 ## 🔧 Bước 1: Cài đặt môi trường Python
-![image](https://github.com/user-attachments/assets/9f130dbb-85e4-43d8-8096-f2363207ea26)
+![image](https://github.com/user-attachments/assets/693066d7-a69a-44e9-88c2-760e5a59f45f)
 
 ## 📦 Bước 2: Cài đặt thư viện
-![image](https://github.com/user-attachments/assets/b7e67527-61d0-4372-af7a-6834a973d0b5)
+![image](https://github.com/user-attachments/assets/a50dfd59-8a82-482f-8ec3-bfaee5da877e)
 
 ## 🔑 Bước 3: Tạo khóa RSA
-![image](https://github.com/user-attachments/assets/c98c24b0-9d25-4104-85bd-3c55d8339b74)
+![image](https://github.com/user-attachments/assets/243c8ec5-cbce-4ad9-bb03-02d6dbb197e8)
 
 ## 🚀 Bước 4: Khởi chạy server
+![image](https://github.com/user-attachments/assets/b2abbbad-4743-4189-90fc-3c50de470169)
 
 Truy cập ứng dụng tại:
 🔗 http://localhost:5000
@@ -111,13 +112,13 @@ Truy cập ứng dụng tại:
 ## 🔄 Luồng Hoạt Động Chính Của Ứng Dụng Truyền File Ký Số
 
 1. Luồng Gửi File (Sender)
-![image](https://github.com/user-attachments/assets/3f3e598b-d954-4d4f-8169-62db0bfe5693)
+![image](https://github.com/user-attachments/assets/f71d7f2c-bc8e-43ea-b20a-2465b548c133)
 
 2. Luồng Nhận File (Receiver)
-![image](https://github.com/user-attachments/assets/cd8403ed-163b-4c90-823c-9c78bd09185a)
+![image](https://github.com/user-attachments/assets/098869d3-3c93-4e8d-8bde-a919cc5aaf6f)
 
 3. Kiến Trúc Hoạt Động
-![image](https://github.com/user-attachments/assets/09a546d0-68b1-42fc-9613-9c6b9d47467e)
+![image](https://github.com/user-attachments/assets/dc6bdd39-80a8-4906-b30c-75f46e3d5ca4)
 
 ## Đặc Điểm Nổi Bật
 1. Bảo Mật 2 Lớp:
