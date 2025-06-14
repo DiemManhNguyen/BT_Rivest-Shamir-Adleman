@@ -33,13 +33,13 @@ SecureFileSign là giải pháp toàn diện cho việc truyền tệp tin an to
 ## 🎨 Giao Diện Của Trang Web
 
 ## ➡️ Trang chính
-![image](https://github.com/user-attachments/assets/59333a86-4ad7-4539-850a-a74f6080c37d)
+![image](https://github.com/user-attachments/assets/3d53fd22-d5b8-46ab-9d86-11dd855fde2b)
 
 ## 👤 Gửi File
-![image](https://github.com/user-attachments/assets/c4373fd6-421f-4740-ad14-1795b9421b7f)
+![image](https://github.com/user-attachments/assets/fa3c0778-a2c4-4d5d-bea0-8d7936504618)
 
 ## ➡️ Nhận File
-![image](https://github.com/user-attachments/assets/fcd64b65-5a74-4405-a51e-e25ba5eaadbd)
+![image](https://github.com/user-attachments/assets/e965804d-7e1b-45bf-a6eb-0c8361095800)
 
 ## 💡 Tính Năng Chính 
 1. Truyền File An Toàn
@@ -61,7 +61,7 @@ SecureFileSign là giải pháp toàn diện cho việc truyền tệp tin an to
 -Mã hóa kênh truyền
 
 ## 📁 Cấu Trúc Thư Mục Của Dự Án
-![image](https://github.com/user-attachments/assets/506910e5-411e-4d5a-983d-12217207b3a1)
+![image](https://github.com/user-attachments/assets/ad00be33-5bd3-4014-92ab-cf6ff37f1fd7)
 
 ## 🧾 Hướng Dẫn Sử Dụng
 ✅ 1. Gửi File Kí Số
@@ -89,15 +89,16 @@ Bước 3: Hệ thống kiểm tra và thông báo:
 
 ## ✅Cách chạy ứng dụng:
 ## 🔧 Bước 1: Cài đặt môi trường Python
-![image](https://github.com/user-attachments/assets/9f130dbb-85e4-43d8-8096-f2363207ea26)
+![image](https://github.com/user-attachments/assets/294395a6-20f3-4c57-bd5f-a4881c6c0c76)
 
 ## 📦 Bước 2: Cài đặt thư viện
-![image](https://github.com/user-attachments/assets/b7e67527-61d0-4372-af7a-6834a973d0b5)
+![image](https://github.com/user-attachments/assets/cbe5d8f9-6fa7-414b-9b36-810785371c15)
 
 ## 🔑 Bước 3: Tạo khóa RSA
-![image](https://github.com/user-attachments/assets/c98c24b0-9d25-4104-85bd-3c55d8339b74)
+![image](https://github.com/user-attachments/assets/499dd2fb-ec78-477b-9fbb-9e00f4acfc76)
 
 ## 🚀 Bước 4: Khởi chạy server
+![image](https://github.com/user-attachments/assets/f000b6dc-0f2f-4797-832f-d565949331b9)
 
 Truy cập ứng dụng tại:
 🔗 http://localhost:5000
@@ -111,13 +112,13 @@ Truy cập ứng dụng tại:
 ## 🔄 Luồng Hoạt Động Chính Của Ứng Dụng Truyền File Ký Số
 
 1. Luồng Gửi File (Sender)
-![image](https://github.com/user-attachments/assets/3f3e598b-d954-4d4f-8169-62db0bfe5693)
+![image](https://github.com/user-attachments/assets/e05609a8-b9a0-4bee-99c6-236d2db91216)
 
 2. Luồng Nhận File (Receiver)
-![image](https://github.com/user-attachments/assets/cd8403ed-163b-4c90-823c-9c78bd09185a)
+![image](https://github.com/user-attachments/assets/8d909e33-0fab-4d64-98cc-7baaf6162e86)
 
 3. Kiến Trúc Hoạt Động
-![image](https://github.com/user-attachments/assets/09a546d0-68b1-42fc-9613-9c6b9d47467e)
+![image](https://github.com/user-attachments/assets/cc68df5f-af2e-4bd0-8ff5-41158e7100d0)
 
 ## Đặc Điểm Nổi Bật
 1. Bảo Mật 2 Lớp:
