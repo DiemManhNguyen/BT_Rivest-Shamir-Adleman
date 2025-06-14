@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truyền File Ký Số</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-upload"></i> Truyền File Ký Số</h1>
+            <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Trang chủ</a>
+        </header>
+        
+        <div class="upload-container">
+            <form method="POST" enctype="multipart/form-data">
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <div class="alert alert-success">
+                            {% for message in messages %}
+                                {{ message }}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endwith %}
+                
+                <div class="file-upload-box">
+                    <input type="file" name="file" id="file" class="file-input" required>
+                    <label for="file" class="file-label">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <span>Chọn file để tải lên</span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn upload-btn">
+                    <i class="fas fa-signature"></i> Ký số và Tải lên
+                </button>
+            </form>
+            
+            {% if filename %}
+            <div class="result-box">
+                <h3>File đã tải lên thành công:</h3>
+                <div class="file-info">
+                    <i class="fas fa-file-alt"></i>
+                    <span>{{ filename }}</span>
+                    <a href="/download_file/{{ filename }}" class="download-link">
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                
+                <h3>Chữ ký số:</h3>
+                <div class="file-info">
+                    <i class="fas fa-signature"></i>
+                    <span>{{ signature_filename }}</span>
+                    <a href="/download_file/{{ signature_filename }}" class="download-link">
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                
+                <div class="notice">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Hãy gửi cả file và chữ ký (.sig) cho người nhận để xác thực</p>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>

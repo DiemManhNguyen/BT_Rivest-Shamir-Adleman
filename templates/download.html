@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhận File Ký Số</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-download"></i> Nhận File Ký Số</h1>
+            <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Trang chủ</a>
+        </header>
+        
+        <div class="download-container">
+            <form method="POST" enctype="multipart/form-data">
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <div class="alert {% if validation_result %}alert-success{% else %}alert-danger{% endif %}">
+                            {% for message in messages %}
+                                {{ message }}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endwith %}
+                
+                <div class="file-upload-box">
+                    <input type="file" name="file" id="file" class="file-input" required>
+                    <label for="file" class="file-label">
+                        <i class="fas fa-file"></i>
+                        <span>Chọn file cần xác thực</span>
+                    </label>
+                </div>
+                
+                <div class="file-upload-box">
+                    <input type="file" name="signature" id="signature" class="file-input" required>
+                    <label for="signature" class="file-label">
+                        <i class="fas fa-signature"></i>
+                        <span>Chọn file chữ ký (.sig)</span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn verify-btn">
+                    <i class="fas fa-check-circle"></i> Xác thực Chữ ký
+                </button>
+            </form>
+            
+            {% if filename %}
+            <div class="validation-result">
+                <h3>Kết quả xác thực:</h3>
+                <div class="result-icon {% if validation_result %}valid{% else %}invalid{% endif %}">
+                    {% if validation_result %}
+                        <i class="fas fa-check-circle"></i>
+                        <span>HỢP LỆ</span>
+                    {% else %}
+                        <i class="fas fa-times-circle"></i>
+                        <span>KHÔNG HỢP LỆ</span>
+                    {% endif %}
+                </div>
+                
+                <div class="file-info">
+                    <i class="fas fa-file-alt"></i>
+                    <span>{{ filename }}</span>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
